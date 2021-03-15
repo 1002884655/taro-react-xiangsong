@@ -1,0 +1,73 @@
+.YeZhuRenZheng {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.YeZhuRenZheng > .Form {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  z-index: 1;
+}
+.YeZhuRenZheng > .Form > .flex-h {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  align-items: center;
+}
+.YeZhuRenZheng > .Form > .flex-h > text {
+  font-size: 28px;
+  color: #333;
+  line-height: 100px;
+}
+.YeZhuRenZheng > .Form > .flex-h > text.iconfont {
+  font-size: 50px;
+  color: #F35844;
+  width: 80px;
+}
+.YeZhuRenZheng > .Form > .flex-h > text:first-child {
+  min-width: 80px;
+}
+.YeZhuRenZheng > .Form > .flex-h > text:last-child {
+  line-height: 60px;
+  padding: 0 20px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  color: #ccc;
+}
+.YeZhuRenZheng > .Form > .flex-h > text:last-child.active {
+  color: #F35844;
+  border-color: #F35844;
+}
+.YeZhuRenZheng > .Form > .flex-h > .flex-item .PickerText {
+  width: 100%;
+  text-align: right;
+  font-size: 28px;
+  color: #666;
+}
+.YeZhuRenZheng > .Form > .flex-h > input {
+  font-size: 28px;
+  color: #333;
+  line-height: 100px;
+  height: 100px;
+}
+.YeZhuRenZheng > .BottomBtn {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  margin-top: -164px;
+}
+.YeZhuRenZheng > .BottomBtn > text {
+  display: block;
+  width: 100%;
+  font-size: 32px;
+  color: #fff;
+  background: #ccc;
+  border-radius: 12px;
+  line-height: 84px;
+  text-align: center;
+}
+.YeZhuRenZheng > .BottomBtn > text.active {
+  background: #F35844;
+}

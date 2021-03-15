@@ -1,0 +1,43 @@
+.GeRenXinXi {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.GeRenXinXi > .Form {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  margin-top: 20px;
+}
+.GeRenXinXi > .Form > .flex-h {
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+}
+.GeRenXinXi > .Form > .flex-h:first-child {
+  border: none;
+}
+.GeRenXinXi > .Form > .flex-h > text {
+  font-size: 28px;
+  color: #999;
+  line-height: 40px;
+  padding: 32px 0;
+}
+.GeRenXinXi > .Form > .flex-h > text:first-child {
+  color: #333;
+  margin-right: 40px;
+}
+.GeRenXinXi > .Form > .flex-h > .UserIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  background: #ccc;
+}
+.GeRenXinXi > .Form > .flex-h > .UserIcon > image {
+  width: 100%;
+  height: 100%;
+}

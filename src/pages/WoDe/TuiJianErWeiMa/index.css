@@ -1,0 +1,19 @@
+.TuiJianErWeiMa {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.TuiJianErWeiMa > image {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.TuiJianErWeiMa > image.QrCodeImg {
+  position: absolute;
+  z-index: 2;
+  width: 50%;
+  height: auto;
+}

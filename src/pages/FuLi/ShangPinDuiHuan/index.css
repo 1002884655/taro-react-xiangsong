@@ -1,0 +1,123 @@
+.ShangPinDuiHuan {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #f8f8f8;
+}
+.ShangPinDuiHuan > .Info {
+  position: relative;
+  overflow: hidden;
+  padding: 0 30px;
+  min-height: 100vh;
+  z-index: 1;
+}
+.ShangPinDuiHuan > .Info > .Item {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.ShangPinDuiHuan > .Info > .Item > .Img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  background: #ccc;
+}
+.ShangPinDuiHuan > .Info > .Item > .Img > image {
+  width: 100%;
+  height: 100%;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item {
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > text {
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .Num {
+  font-size: 0;
+  white-space: nowrap;
+  margin-top: 16px;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .Num > text {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .Num > text:first-child {
+  color: #971C21;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .flex-h {
+  align-items: center;
+  margin-top: 16px;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .flex-h > text {
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .flex-h > text:first-child {
+  color: #F35844;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .flex-h > .EditNum {
+  font-size: 0;
+  white-space: nowrap;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .flex-h > .EditNum > text {
+  display: inline-block;
+  font-size: 30px;
+  color: #333;
+  line-height: 40px;
+  width: 50px;
+  text-align: center;
+}
+.ShangPinDuiHuan > .Info > .Item > .flex-item > .flex-h > .EditNum > input {
+  width: 80px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+}
+.ShangPinDuiHuan > .Info > .InfoBottom {
+  width: 100%;
+  height: 158px;
+}
+.ShangPinDuiHuan > .BottomBtn {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  margin-top: -158px;
+}
+.ShangPinDuiHuan > .BottomBtn > text {
+  width: 100%;
+  font-size: 34px;
+  color: #fff;
+  line-height: 98px;
+  background: #ccc;
+  border-radius: 98px;
+  text-align: center;
+  display: block;
+}
+.ShangPinDuiHuan > .BottomBtn > text.active {
+  background: #F35844;
+}

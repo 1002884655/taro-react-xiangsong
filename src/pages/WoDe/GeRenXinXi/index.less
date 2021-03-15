@@ -1,0 +1,123 @@
+.GeRenXinXi {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+
+  >.Popup {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.6);
+
+    >view {
+      width: 600px;
+      background: #fff;
+      border-radius: 12px;
+
+      >.Title {
+        >text {
+          display: block;
+          font-size: 28px;
+          line-height: 40px;
+          margin-top: 20px;
+          text-align: center;
+        }
+      }
+
+      >.Content {
+        padding: 0 40px;
+        position: relative;
+        overflow: hidden;
+        margin-top: 40px;
+
+        >input {
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-size: 26px;
+          line-height: 80px;
+          height: 80px;
+          border: 2px solid #ccc;
+          border-radius: 6px;
+          box-sizing: border-box;
+        }
+      }
+
+      >.Bottom {
+        border-top: 2px solid #eee;
+        margin-top: 40px;
+
+        >view {
+          border-left: 2px solid #eee;
+
+          &:first-child {
+            border-left: none;
+          }
+
+          >text {
+            display: block;
+            text-align: center;
+            font-size: 26px;
+            line-height: 80px;
+          }
+        }
+      }
+    }
+  }
+
+  >.Form {
+    padding: 0 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 20px;
+
+    >.flex-h {
+      align-items: center;
+      border-top: 2px solid rgba(0, 0, 0, 0.08);
+
+      &:first-child {
+        border: none;
+      }
+
+      .PickerText {
+        font-size: 28px;
+        color: #999;
+        line-height: 40px;
+        min-width: 100px;
+        text-align: right;
+      }
+
+      >text {
+        font-size: 28px;
+        color: #999;
+        line-height: 40px;
+        padding: 32px 0;
+
+        &:first-child {
+          color: #333;
+          margin-right: 40px;
+        }
+      }
+
+      >.UserIcon {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 100%;
+        background: #ccc;
+
+        >image {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

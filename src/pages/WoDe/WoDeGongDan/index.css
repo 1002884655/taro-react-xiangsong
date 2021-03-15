@@ -1,0 +1,20 @@
+.WoDeHuoDong {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.WoDeHuoDong .Content {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.WoDeHuoDong .Content > .ListItem {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.WoDeHuoDong .Content > .ListItem:first-child {
+  margin-top: 30px;
+}

@@ -1,0 +1,60 @@
+.WuYeGongGaoItem {
+  position: relative;
+  background: #fff;
+  padding: 40px 30px;
+}
+.WuYeGongGaoItem > .Title {
+  align-items: center;
+}
+.WuYeGongGaoItem > .Title > text {
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+  white-space: nowrap;
+}
+.WuYeGongGaoItem > .Title > text:first-child {
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  margin-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.WuYeGongGaoItem > .GaoItemContent {
+  position: relative;
+  overflow: hidden;
+  background: rgba(243, 88, 68, 0.08);
+  padding: 20px;
+  margin-top: 40px;
+}
+.WuYeGongGaoItem > .GaoItemContent > text {
+  font-size: 24px;
+  line-height: 38px;
+  color: #333;
+  display: block;
+}
+.WuYeGongGaoItem > .GaoItemContent > .flex-h {
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.WuYeGongGaoItem > .GaoItemContent > .flex-h > view {
+  margin-left: 10px;
+  font-size: 0;
+  white-space: nowrap;
+}
+.WuYeGongGaoItem > .GaoItemContent > .flex-h > view:first-child {
+  margin-left: 0;
+}
+.WuYeGongGaoItem > .GaoItemContent > .flex-h > view text {
+  font-size: 24px;
+  line-height: 40px;
+  color: #999;
+  display: inline-block;
+  vertical-align: middle;
+}
+.WuYeGongGaoItem > .GaoItemContent > .flex-h > view text.iconfont {
+  color: #F35844;
+  font-size: 40px;
+}

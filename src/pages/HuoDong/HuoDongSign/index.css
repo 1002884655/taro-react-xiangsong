@@ -1,0 +1,75 @@
+.HuoDongSign {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.HuoDongSign > image {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.HuoDongSign > .SignBtn {
+  width: 188px;
+  height: 188px;
+  position: absolute;
+  overflow: visible;
+  z-index: 2;
+  left: 50%;
+  bottom: 200px;
+  margin-left: -94px;
+}
+.HuoDongSign > .SignBtn::after {
+  content: '';
+  display: block;
+  width: 226px;
+  height: 226px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  z-index: 2;
+}
+.HuoDongSign > .SignBtn::before {
+  content: '';
+  display: block;
+  width: 264px;
+  height: 264px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  z-index: 1;
+}
+.HuoDongSign > .SignBtn.active::after {
+  background: rgba(243, 88, 68, 0.3);
+}
+.HuoDongSign > .SignBtn.active::before {
+  background: rgba(243, 88, 68, 0.3);
+}
+.HuoDongSign > .SignBtn.active > view {
+  background: #f35844;
+}
+.HuoDongSign > .SignBtn.active > view > text {
+  color: #fff;
+}
+.HuoDongSign > .SignBtn > view {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+  border-radius: 100%;
+  background: #ffffff;
+}
+.HuoDongSign > .SignBtn > view > text {
+  font-size: 44px;
+  color: #999;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+}

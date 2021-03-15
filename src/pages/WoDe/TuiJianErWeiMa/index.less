@@ -1,0 +1,26 @@
+.TuiJianErWeiMa {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+
+  >image {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+
+    &.QrCodeImg {
+      position: absolute;
+      z-index: 2;
+      width: 50%;
+      height: auto;
+      display: block;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      bottom: 150px;
+    }
+  }
+}

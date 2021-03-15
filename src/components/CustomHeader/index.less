@@ -1,0 +1,29 @@
+.CustomHeader {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+
+  >text {
+    &.Back {
+      display: inline-block;
+      position: absolute;
+      z-index: 2;
+      color: #fff;
+      font-size: 40px;
+      left: 30px;
+      top: 0;
+    }
+
+    &.Title {
+      display: block;
+      font-size: 32px;
+      color: #fff;
+      text-indent: 30px;
+      padding-bottom: 20px;
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.WuYeFuWu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+.WuYeFuWu .TypeList {
+  padding-right: 30px;
+  font-size: 0;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.WuYeFuWu .TypeList > view {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: calc((100% - 150px) / 5);
+}
+.WuYeFuWu .TypeList > view > view {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  width: 100%;
+  padding-bottom: 100%;
+}
+.WuYeFuWu .TypeList > view > view > view {
+  width: 100%;
+}
+.WuYeFuWu .TypeList > view > view > view > .Icon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.WuYeFuWu .TypeList > view > view > view > .Icon image {
+  width: 100%;
+  height: 100%;
+}
+.WuYeFuWu .TypeList > view > view > view > .Icon text {
+  font-size: 50px;
+  color: #F35844;
+  display: block;
+  text-align: center;
+}
+.WuYeFuWu .TypeList > view > view > view > .Name text {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  line-height: 40px;
+  white-space: nowrap;
+}
+.WuYeFuWu .BigImg {
+  width: 100%;
+  padding-bottom: 50%;
+  position: relative;
+  overflow: hidden;
+  background: #ccc;
+}
+.WuYeFuWu .BigImg > image {
+  width: 100%;
+  height: 100%;
+}
+.WuYeFuWu .BanShiZhiNan {
+  padding: 40px 30px;
+  background: #fff;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.WuYeFuWu .BanShiZhiNan > text {
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  line-height: 40px;
+  display: block;
+}
+.WuYeFuWu .BanShiZhiNan > .flex-h {
+  position: relative;
+  margin-top: 60px;
+}
+.WuYeFuWu .BanShiZhiNan > .flex-h > .Line {
+  width: 50px;
+  position: relative;
+  overflow: visible;
+  border-left: 2px dashed #586FF8;
+}
+.WuYeFuWu .BanShiZhiNan > .flex-h > .Line > view {
+  width: 14px;
+  height: 14px;
+  background: #586FF8;
+  border-radius: 100%;
+  position: absolute;
+  left: -8px;
+  top: 30px;
+}
+.WuYeFuWu .BanShiZhiNan > .flex-h > .flex-item {
+  position: relative;
+  overflow: visible;
+  background: rgba(88, 111, 248, 0.08);
+  padding: 20px;
+}
+.WuYeFuWu .BanShiZhiNan > .flex-h > .flex-item::after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 16px;
+  border-color: transparent rgba(88, 111, 248, 0.08) transparent transparent;
+  border-style: solid dashed solid solid;
+  border-width: 20px;
+}
+.WuYeFuWu .BanShiZhiNan > .flex-h > .flex-item > text {
+  display: block;
+  font-size: 24px;
+  color: #333;
+  line-height: 40px;
+  margin-top: 10px;
+}
+.WuYeFuWu .BanShiZhiNan > .flex-h > .flex-item > text:first-child {
+  margin-top: 0;
+}
+.WuYeFuWu .ListTitle {
+  position: relative;
+  overflow: hidden;
+  padding: 0 30px;
+  margin-top: 30px;
+  background: #fff;
+}
+.WuYeFuWu .ListTitle > text {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  line-height: 100px;
+}
+.WuYeFuWu .List {
+  position: relative;
+  overflow: hidden;
+}
+.WuYeFuWu .List > view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}

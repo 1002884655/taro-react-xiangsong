@@ -1,0 +1,100 @@
+.shgj {
+  padding: 0 30px;
+  background: #f8f8f8;
+  position: relative;
+  overflow: hidden;
+}
+.ScorePopup {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.7);
+}
+.ScorePopup > view {
+  width: 460px;
+}
+.ScorePopup > view > view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 24px;
+}
+.ScorePopup > view > view > .Title > text {
+  display: block;
+  font-size: 24px;
+  color: #666;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+.ScorePopup > view > view > .Title > text.iconfont {
+  font-size: 40px;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  z-index: 2;
+}
+.ScorePopup > view > view > .flex-h {
+  padding: 0 80px;
+  align-items: center;
+  margin-top: 40px;
+}
+.ScorePopup > view > view > .flex-h > .Icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #eee;
+  margin-right: 20px;
+}
+.ScorePopup > view > view > .flex-h > .Icon > image {
+  width: 100%;
+  height: 100%;
+}
+.ScorePopup > view > view > .flex-h > .flex-item > text {
+  display: block;
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+}
+.ScorePopup > view > view > .flex-h > .flex-item > text:first-child {
+  color: #333;
+  margin-bottom: 10px;
+}
+.ScorePopup > view > view > .Star {
+  font-size: 0;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+.ScorePopup > view > view > .Star > text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  margin-left: 10px;
+  color: #666;
+}
+.ScorePopup > view > view > .Star > text.active {
+  color: #fcdc1e;
+}
+.ScorePopup > view > view > .Star > text:first-child {
+  margin-left: 0;
+}
+.ScorePopup > view > view > .Submit {
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+  margin-top: 40px;
+}
+.ScorePopup > view > view > .Submit > text {
+  display: block;
+  font-size: 30px;
+  color: #F35844;
+  line-height: 90px;
+  text-align: center;
+}

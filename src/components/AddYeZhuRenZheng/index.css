@@ -1,0 +1,80 @@
+.AddYeZhuRenZheng {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.AddYeZhuRenZheng > .Close {
+  text-align: right;
+  font-size: 0;
+}
+.AddYeZhuRenZheng > .Close > text {
+  display: inline-block;
+  font-size: 40px;
+  color: #666;
+  margin-right: 30px;
+}
+.AddYeZhuRenZheng > .Form {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  z-index: 1;
+}
+.AddYeZhuRenZheng > .Form > .flex-h {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  align-items: center;
+}
+.AddYeZhuRenZheng > .Form > .flex-h > text {
+  font-size: 28px;
+  color: #333;
+  line-height: 100px;
+}
+.AddYeZhuRenZheng > .Form > .flex-h > text.iconfont {
+  font-size: 50px;
+  color: #F35844;
+  width: 80px;
+}
+.AddYeZhuRenZheng > .Form > .flex-h > text:first-child {
+  min-width: 80px;
+}
+.AddYeZhuRenZheng > .Form > .flex-h > text:last-child {
+  line-height: 60px;
+  padding: 0 20px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  color: #ccc;
+}
+.AddYeZhuRenZheng > .Form > .flex-h > text:last-child.active {
+  color: #F35844;
+  border-color: #F35844;
+}
+.AddYeZhuRenZheng > .Form > .flex-h > .flex-item .PickerText {
+  width: 100%;
+  text-align: right;
+  font-size: 28px;
+  color: #666;
+}
+.AddYeZhuRenZheng > .Form > .flex-h > input {
+  font-size: 28px;
+  color: #333;
+  line-height: 100px;
+  height: 100px;
+}
+.AddYeZhuRenZheng > .BottomBtn {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  margin-top: -264px;
+}
+.AddYeZhuRenZheng > .BottomBtn > text {
+  display: block;
+  width: 100%;
+  font-size: 32px;
+  color: #fff;
+  background: #F35844;
+  border-radius: 12px;
+  line-height: 84px;
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+.ZiXunDetail {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.ZiXunDetail > view {
+  position: relative;
+  overflow: hidden;
+  padding: 0 30px;
+}
+.ZiXunDetail > view > .Title {
+  position: relative;
+  overflow: hidden;
+}
+.ZiXunDetail > view > .Title > text {
+  width: 100%;
+  display: block;
+  font-size: 34px;
+  color: #333;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+.ZiXunDetail > view > .flex-h {
+  align-items: center;
+  margin-top: 20px;
+}
+.ZiXunDetail > view > .flex-h > text {
+  font-size: 24px;
+  color: #999;
+  line-height: 48px;
+  margin-left: 10px;
+}
+.ZiXunDetail > view > .flex-h > text:first-child {
+  margin-left: 0;
+}
+.ZiXunDetail > view > .flex-h > text.iconfont {
+  color: #F35844;
+  font-size: 40px;
+}

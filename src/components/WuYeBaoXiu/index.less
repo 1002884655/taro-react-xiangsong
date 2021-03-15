@@ -1,0 +1,81 @@
+.WuYeBaoXiu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+  .BigImg {
+    width: 100%;
+    padding-bottom: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #ccc;
+
+    >view {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+
+      >.BannerSwiper {
+        width: 100%;
+        height: 100%;
+
+        .BannerItem {
+          width: 100%;
+          height: 100%;
+          position: relative;
+
+          image {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .WoYaoBaoXiu {
+    padding: 0 30px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+
+    >view {
+      font-size: 0;
+      white-space: nowrap;
+      background: #fff;
+      border-radius: 98px;
+      text-align: center;
+
+      >text {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 32px;
+        color: #971C21;
+        line-height: 98px;
+        &.iconfont {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .List {
+    position: relative;
+    overflow: hidden;
+
+    >view {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 30px;
+
+      &:first-child {
+        margin-top: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.GetUserIcon {
+  width: 100%;
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+
+  >view {
+    width: 60%;
+    background: #fff;
+    border-radius: 10px;
+
+    >text {
+      display: block;
+      text-align: center;
+      font-size: 32px;
+      line-height: 40px;
+      padding: 40px 0;
+    }
+
+    >.flex-h {
+      position: relative;
+      overflow: hidden;
+      border-top: 2px solid rgba(0, 0, 0, 0.08);
+
+      >text {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 80px;
+        text-align: center;
+        border-right: 2px solid rgba(0, 0, 0, 0.08);
+        color: #999;
+      }
+      >button {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 80px;
+        background: none;
+        border: none;
+        padding: 0 !important;
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

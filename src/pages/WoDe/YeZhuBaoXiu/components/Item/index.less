@@ -1,0 +1,144 @@
+.YeZhuBaoXiuItem {
+  position: relative;
+  background: #fff;
+  padding: 0 30px;
+
+  >.Title {
+    align-items: center;
+    padding-top: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+
+    >text {
+      font-size: 24px;
+      color: #999;
+      line-height: 88px;
+      margin-left: 10px;
+
+      &:first-child {
+        margin-left: 0;
+        font-size: 34px;
+        color: #F35844;
+      }
+
+      &.flex-item {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  >.Name {
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+
+    .Name-action {
+      color: #F35844;
+      width: 128rpx;
+      flex: none;
+      border: 1px solid #F35844;
+      text-align: center;
+      border-radius: 8rpx;
+    }
+
+    >text {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 60px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &.iconfont {
+        font-size: 40px;
+        color: #F35844;
+        margin-left: 20px;
+        font-weight: normal;
+      }
+    }
+  }
+
+  >.Detail {
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 30px;
+
+    >.Line {
+      width: 50px;
+      position: relative;
+      overflow: visible;
+      border-left: 2px dashed #F35844;
+
+      >view {
+        width: 14px;
+        height: 14px;
+        background: #F35844;
+        border-radius: 100%;
+        position: absolute;
+        left: -8px;
+        top: 30px;
+      }
+    }
+
+    >.flex-item {
+      position: relative;
+      overflow: visible;
+      background: rgba(243, 88, 68, 0.08);
+      padding: 20px;
+
+      &::after {
+        content: '';
+        width: 0;
+        height: 0;
+        display: block;
+        position: absolute;
+        left: -40px;
+        top: 16px;
+        border-color: transparent rgba(243, 88, 68, 0.08) transparent transparent;
+        border-style: solid dashed solid solid;
+        border-width: 20px;
+      }
+
+      >.flex-h {
+        align-items: center;
+
+        view {
+          text {
+            font-size: 24px;
+            color: #999;
+            line-height: 40px;
+          }
+
+          &:first-child {
+            text {
+              color: #F35844;
+            }
+          }
+        }
+      }
+
+      >.Desc {
+        font-size: 24px;
+        line-height: 40px;
+        color: #333;
+        margin-top: 10px;
+
+        >text {
+          &.Name {
+            color: #F35844;
+            font-size: 24px;
+            line-height: 40px;
+          }
+
+          &.Phone {
+            color: #14DC05;
+            font-size: 24px;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+}

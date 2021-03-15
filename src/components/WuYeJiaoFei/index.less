@@ -1,0 +1,138 @@
+.WuYeJiaoFei {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+  >.flex-item {
+    position: relative;
+    overflow: hidden;
+
+    >view {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+
+      .BigImg {
+        width: 100%;
+        padding-bottom: 50%;
+        position: relative;
+        overflow: hidden;
+        background: #ccc;
+
+        >view {
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          overflow: hidden;
+
+          >.BannerSwiper {
+            width: 100%;
+            height: 100%;
+
+            .SwiperItem {
+              width: 100%;
+              height: 100%;
+              position: relative;
+            }
+
+            .BannerItem {
+              width: 100%;
+              height: 100%;
+              position: relative;
+
+              image {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .List {
+        position: relative;
+        overflow: hidden;
+
+        checkbox {
+          display: block;
+          line-height: 1.4em;
+          position: relative;
+          overflow: hidden;
+          background: #fff;
+          margin-bottom: 30px;
+          padding: 30px;
+
+          &:first-child {
+            margin-top: 30px;
+          }
+
+          .flex-item {
+            color: #333;
+            font-size: 28px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0 20px;
+          }
+
+          .Price {
+            color: #F35844;
+            font-size: 28px;
+            font-weight: bold;
+          }
+        }
+
+        >view {
+          width: 100%;
+          position: relative;
+          overflow: hidden;
+          margin-bottom: 30px;
+
+          &:first-child {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  >.PayLine {
+    align-items: center;
+    border-top: 2px solid #eee;
+    background: #fff;
+
+    >view {
+      position: relative;
+      overflow: hidden;
+      margin-left: 10px;
+
+      &:first-child {
+        margin-left: 30px;
+      }
+
+      text {
+        font-size: 28px;
+        color: #333;
+      }
+
+      &.Btn {
+        width: 160px;
+
+        text {
+          display: block;
+          text-align: center;
+          font-size: 28px;
+          line-height: 80px;
+          background: #F35844;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.SlidePopup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+
+  &.active {
+    left: 0;
+
+    >view {
+      bottom: 0;
+    }
+  }
+
+  >view {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -100vh;
+    background: #fff;
+    border-radius: 40px 40px 0 0;
+    padding: 40px 0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+
+    >.Title {
+      padding: 0 30px;
+      position: relative;
+      overflow: hidden;
+      font-size: 0;
+      white-space: nowrap;
+      text-align: right;
+      z-index: 2;
+
+      >text {
+        display: inline-block;
+        vertical-align: middle;
+
+        &.Close {
+          font-size: 36px;
+          color: #666;
+        }
+      }
+    }
+
+    >.PopupContent {
+      width: 100%;
+      position: relative;
+      overflow: visible;
+      z-index: 1;
+    }
+  }
+}

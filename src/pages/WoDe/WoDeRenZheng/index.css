@@ -1,0 +1,103 @@
+.WoDeRenZheng {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.WoDeRenZheng .Content {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.WoDeRenZheng .Content > .ListItem {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.WoDeRenZheng .Content > .ListItem:first-child {
+  margin-top: 30px;
+}
+.WoDeRenZheng .Content > .ListItem > text {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  line-height: 40px;
+}
+.WoDeRenZheng .Content > .ListItem > .flex-h {
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.WoDeRenZheng .Content > .ListItem > .flex-h > .flex-item {
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.WoDeRenZheng .Content > .ListItem > .flex-h > .flex-item > text {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 24px;
+  color: #666;
+  line-height: 40px;
+}
+.WoDeRenZheng .Content > .ListItem > .flex-h > view:last-child > text {
+  font-size: 28px;
+  color: #77A5F0;
+}
+.WoDeRenZheng .Content > .ListItem > .flex-h > view:last-child > text.Red {
+  color: #F35844;
+}
+.WoDeRenZheng .Content > .ListItem > .flex-h > view:last-child > text.Green {
+  color: #44d61f;
+}
+.WoDeRenZheng .Content > .AddBtn {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.WoDeRenZheng .Content > .AddBtn > text {
+  font-size: 28px;
+  color: #fff;
+  line-height: 80px;
+  border-radius: 80px;
+  background: #F35844;
+  text-align: center;
+  display: block;
+}
+.WoDeRenZheng > .AddRenZhengLayer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+.WoDeRenZheng > .AddRenZhengLayer.active {
+  display: block;
+}
+.WoDeRenZheng > .AddRenZhengLayer > view {
+  width: 100%;
+}
+.WoDeRenZheng > .AddRenZhengLayer > view > view {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.WoDeRenZheng > .AddRenZhengLayer > view > view > scroll-view {
+  padding: 30px 0;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,176 @@
+.HuoDongDetail {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.HuoDongDetail > .BannerLayer {
+  width: 100%;
+  padding-bottom: 75.2%;
+  position: relative;
+  z-index: 2;
+}
+.HuoDongDetail > .Banner {
+  width: 100%;
+  padding-bottom: 75.2%;
+  background: #ccc;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.HuoDongDetail > .Banner > image {
+  width: 100%;
+  height: 100%;
+}
+.HuoDongDetail > .Info {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+  border-radius: 40px 40px 0 0;
+  margin-top: -30px;
+  background: #fff;
+}
+.HuoDongDetail > .Info > .MainInfo {
+  position: relative;
+  overflow: visible;
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+.HuoDongDetail > .Info > .MainInfo > .Name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  line-height: 40px;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+.HuoDongDetail > .Info > .MainInfo > .Tips {
+  display: inline-block;
+  font-size: 28px;
+  color: #F35844;
+  position: absolute;
+  z-index: 2;
+  right: -30px;
+  top: -40px;
+  background: rgba(243, 88, 68, 0.2);
+  padding: 0 20px;
+  line-height: 58px;
+  border-radius: 0 0 0 40px;
+}
+.HuoDongDetail > .Info > .MainInfo > .flex-h {
+  align-items: center;
+  margin-top: 20px;
+}
+.HuoDongDetail > .Info > .MainInfo > .flex-h > text {
+  font-size: 28px;
+  color: #333;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.HuoDongDetail > .Info > .MainInfo > .flex-h > view {
+  font-size: 28px;
+  color: #333;
+  line-height: 40px;
+}
+.HuoDongDetail > .Info > .MainInfo > .flex-h > view > text {
+  font-size: 28px;
+  color: #F35844;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.HuoDongDetail > .Info > .Desc {
+  position: relative;
+  overflow: hidden;
+  margin-top: 140px;
+}
+.HuoDongDetail > .Info > .Desc > text {
+  font-size: 34px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #333;
+  line-height: 40px;
+}
+.HuoDongDetail > .Info > .BottomBtn {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #fff;
+  line-height: 98px;
+  border-radius: 98px;
+  background: #ccc;
+  margin-top: 60px;
+}
+.HuoDongDetail > .Info > .BottomBtn.active {
+  background: #F35844;
+}
+.HuoDongDetail .JoinNumLayer {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+}
+.HuoDongDetail .JoinNumLayer.active {
+  display: block;
+}
+.HuoDongDetail .JoinNumLayer > view {
+  width: 80%;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.HuoDongDetail .JoinNumLayer > view > text {
+  display: block;
+  font-size: 28px;
+  color: #333;
+  line-height: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+.HuoDongDetail .JoinNumLayer > view > .Form {
+  align-items: center;
+  margin-top: 20px;
+  padding: 30px;
+}
+.HuoDongDetail .JoinNumLayer > view > .Form > view:first-child {
+  margin-right: 20px;
+}
+.HuoDongDetail .JoinNumLayer > view > .Form > view:first-child > text {
+  font-size: 26px;
+  color: #333;
+  line-height: 40px;
+  text-indent: 30px;
+  display: block;
+}
+.HuoDongDetail .JoinNumLayer > view > .Form > view.flex-item > input {
+  font-size: 26px;
+  color: #333;
+  line-height: 40px;
+  height: 40px;
+}
+.HuoDongDetail .JoinNumLayer > view > .Bottom {
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+.HuoDongDetail .JoinNumLayer > view > .Bottom > view:first-child {
+  border-right: 2px solid rgba(0, 0, 0, 0.08);
+}
+.HuoDongDetail .JoinNumLayer > view > .Bottom > view > text {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  color: #666;
+  line-height: 80px;
+}

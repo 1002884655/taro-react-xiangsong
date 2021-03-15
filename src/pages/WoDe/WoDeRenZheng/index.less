@@ -1,0 +1,136 @@
+.WoDeRenZheng {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+
+  .Content {
+    padding: 0 30px;
+    position: relative;
+    overflow: hidden;
+
+    >.ListItem {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 30px;
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+
+      &:first-child {
+        margin-top: 30px;
+      }
+
+      >text {
+        display: block;
+        font-size: 28px;
+        font-weight: bold;
+        color: #000;
+        line-height: 40px;
+      }
+
+      >.flex-h {
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        margin-top: 10px;
+
+        >.flex-item {
+          position: relative;
+          overflow: hidden;
+          margin-right: 10px;
+
+          >text {
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 24px;
+            color: #666;
+            line-height: 40px;
+          }
+        }
+
+        >view:last-child {
+          >text {
+            font-size: 28px;
+            color: #77A5F0;
+            display: block;
+            text-align: center;
+
+            &.Red {
+              color: #F35844;
+            }
+
+            &.Green {
+              color: #44d61f;
+            }
+
+            &.Btn {
+              color: #666;
+              line-height: 50px;
+              padding: 0 20px;
+              border-radius: 25px;
+
+              &.active {
+                color: #fff;
+                background: #F35844;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    >.AddBtn {
+      margin-bottom: 30px;
+      position: relative;
+      overflow: hidden;
+
+      >text {
+        font-size: 28px;
+        color: #fff;
+        line-height: 80px;
+        border-radius: 80px;
+        background: #F35844;
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+
+  >.AddRenZhengLayer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    >view {
+      width: 100%;
+
+      >view {
+        padding: 0 30px;
+        position: relative;
+        overflow: hidden;
+
+        >scroll-view {
+          padding: 30px 0;
+          background: #fff;
+          border-radius: 10px;
+          position: relative;
+          max-height: 90vh;
+          overflow-y: scroll;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    }
+  }
+}

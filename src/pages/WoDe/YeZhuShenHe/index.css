@@ -1,0 +1,187 @@
+.YeZhuShenHe {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.YeZhuShenHe > .ShenHeContent {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  z-index: 1;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus {
+  position: relative;
+  overflow: hidden;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Checking > .Status,
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Pass > .Status {
+  padding: 40px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Checking > .Status > text,
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Pass > .Status > text {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: #666;
+  line-height: 40px;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Checking > .Status > text:first-child,
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Pass > .Status > text:first-child {
+  font-size: 100px;
+  line-height: 100px;
+  color: #77A5F0;
+  margin-bottom: 20px;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Checking > .Info,
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Pass > .Info {
+  padding: 10px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  margin-top: 20px;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Checking > .Info > .flex-h,
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Pass > .Info > .flex-h {
+  align-items: flex-start;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Checking > .Info > .flex-h > text,
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Pass > .Info > .flex-h > text {
+  font-size: 30px;
+  color: #333;
+  line-height: 40px;
+  padding: 10px 0;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.Pass > .Status > text:first-child {
+  color: #2ed61a;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Status {
+  padding: 40px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Status > text {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: #F35844;
+  line-height: 40px;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Status > text:first-child {
+  font-size: 100px;
+  line-height: 100px;
+  margin-bottom: 20px;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Info {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  margin-top: 20px;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Info > .flex-h {
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Info > .flex-h:first-child {
+  border: none;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Info > .flex-h > text {
+  font-size: 30px;
+  color: #333;
+  line-height: 40px;
+  padding: 30px 0;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.YeZhuShenHe > .ShenHeContent > .CheckStatus.NoPass > .Info > .flex-h > text:first-child {
+  font-size: 28px;
+  color: #999;
+}
+.YeZhuShenHe > .ShenHeContent > .OtherTab {
+  background: #fff;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.YeZhuShenHe > .ShenHeContent > .OtherTab > .flex-h {
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+}
+.YeZhuShenHe > .ShenHeContent > .OtherTab > .flex-h:first-child {
+  border: none;
+}
+.YeZhuShenHe > .ShenHeContent > .OtherTab > .flex-h > text {
+  font-size: 36px;
+  color: #999;
+  line-height: 100px;
+}
+.YeZhuShenHe > .ShenHeContent > .OtherTab > .flex-h > text:first-child {
+  font-size: 32px;
+  color: #333;
+}
+.YeZhuShenHe > .ShenHeContent > .ContentBottom {
+  width: 100%;
+  height: 250px;
+}
+.YeZhuShenHe > .BottomBtn {
+  padding: 0 30px 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  margin-top: -164px;
+}
+.YeZhuShenHe > .BottomBtn > text {
+  display: block;
+  width: 100%;
+  font-size: 32px;
+  color: #fff;
+  background: #F35844;
+  border-radius: 12px;
+  line-height: 84px;
+  text-align: center;
+}
+.YeZhuShenHe .LianXiPopup {
+  padding: 0 30px;
+  position: relative;
+  overflow: visible;
+  padding-bottom: 40px;
+}
+.YeZhuShenHe .LianXiPopup > text {
+  width: 100%;
+  display: block;
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.YeZhuShenHe .LianXiPopup > text:first-child {
+  font-size: 34px;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+.YeZhuShenHe .LianXiPopup > .flex-h {
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+}
+.YeZhuShenHe .LianXiPopup > .flex-h > text {
+  font-size: 30px;
+  line-height: 100px;
+  color: #77A5F0;
+}
+.YeZhuShenHe .LianXiPopup > .flex-h > text:first-child {
+  color: #333;
+}
+.YeZhuShenHe .LianXiPopup > .flex-h > text:last-child {
+  font-size: 40px;
+  margin-left: 10px;
+}

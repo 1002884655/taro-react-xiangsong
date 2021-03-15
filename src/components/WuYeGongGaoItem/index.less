@@ -1,0 +1,70 @@
+.WuYeGongGaoItem {
+  position: relative;
+  background: #fff;
+  padding: 40px 30px;
+
+  >.Title {
+    align-items: center;
+
+    >text {
+      font-size: 24px;
+      color: #999;
+      line-height: 40px;
+      white-space: nowrap;
+
+      &:first-child {
+        font-size: 30px;
+        color: #333;
+        font-weight: bold;
+        margin-right: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  >.GaoItemContent {
+    position: relative;
+    overflow: hidden;
+    background: rgba(243, 88, 68, 0.08);
+    padding: 20px;
+    margin-top: 40px;
+
+    >text {
+      font-size: 24px;
+      line-height: 38px;
+      color: #333;
+      display: block;
+    }
+
+    >.flex-h {
+      align-items: center;
+      margin-top: 20px;
+      position: relative;
+      overflow: hidden;
+
+      >view {
+        margin-left: 10px;
+        font-size: 0;
+        white-space: nowrap;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        text {
+          font-size: 24px;
+          line-height: 40px;
+          color: #999;
+          display: inline-block;
+          vertical-align: middle;
+
+          &.iconfont {
+            color: #F35844;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+}

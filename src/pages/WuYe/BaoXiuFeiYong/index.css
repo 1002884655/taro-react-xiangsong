@@ -1,0 +1,73 @@
+.BaoXiuFeiYong {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+}
+.BaoXiuFeiYong > .Info {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.BaoXiuFeiYong > .Info > .InfoBottom {
+  height: 264px;
+  position: relative;
+}
+.BaoXiuFeiYong > .Info > view {
+  position: relative;
+  overflow: hidden;
+  padding: 0 30px;
+  background: #fff;
+}
+.BaoXiuFeiYong > .Info > view > text {
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 30px 0;
+}
+.BaoXiuFeiYong > .Info > view > view {
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+.BaoXiuFeiYong > .Info > view > view:last-child {
+  border-bottom: none;
+}
+.BaoXiuFeiYong > .Info > view > view > text {
+  font-size: 24px;
+  color: #333;
+  line-height: 98px;
+}
+.BaoXiuFeiYong > .Info > view > view > text.Red {
+  color: #F35844;
+  font-size: 34px;
+  font-weight: bold;
+}
+.BaoXiuFeiYong > .BottomBtn {
+  position: relative;
+  overflow: hidden;
+  padding: 0 30px;
+  margin-top: -264px;
+  z-index: 2;
+}
+.BaoXiuFeiYong > .BottomBtn > text {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  line-height: 98px;
+  border-radius: 98px;
+  color: #F35844;
+  background: #fff;
+  border: 2px solid #F35844;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.BaoXiuFeiYong > .BottomBtn > text.active {
+  color: #fff;
+  background: #F35844;
+}

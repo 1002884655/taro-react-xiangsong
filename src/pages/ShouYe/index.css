@@ -1,0 +1,352 @@
+.ShouYe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+.ShouYe > view {
+  position: relative;
+}
+.ShouYe > view.flex-item {
+  position: relative;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.ShouYe > view.flex-item > .PageContainer .Content {
+  position: relative;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view {
+  position: relative;
+  z-index: 2;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view.TopBg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-bottom: 50%;
+  border-radius: 0 0 100px 100px;
+  background-image: linear-gradient(#f35844, #ff8d61);
+  z-index: 1;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NoticeContent {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: #ff8d61;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NoticeContent > view {
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 24px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NoticeContent > view > text {
+  color: #fff;
+  font-size: 32px;
+  line-height: 60px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NoticeContent > view > .flex-item {
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+  height: 60px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NoticeContent > view > .flex-item > view {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 60px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NoticeContent > view > .flex-item > view > text {
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
+  white-space: nowrap;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  animation: 5s move infinite linear;
+  -webkit-animation: 5s move infinite linear;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .Welcome {
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  text-indent: 30px;
+  margin-bottom: 10px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .BannerContainer {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .BannerContainer > view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50%;
+  background: #f8f8f8;
+  border-radius: 16rpx;
+  height: 0;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .BannerContainer > view > view {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .BannerContainer > view > view > .BannerSwiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16rpx;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .BannerContainer > view > view > .BannerSwiper .BannerItem {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16rpx;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .BannerContainer > view > view > .BannerSwiper .BannerItem image {
+  width: 100%;
+  height: 100%;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer {
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view {
+  margin-left: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view:first-child {
+  margin-left: 0;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view:nth-child(1) > view > view > text:first-child {
+  color: #ffc412;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view:nth-child(2) > view > view > text:first-child {
+  color: #F35844;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view:nth-child(3) > view > view > text:first-child {
+  color: #fb7820;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view:nth-child(4) > view > view > text:first-child {
+  color: #586ff8;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view > view {
+  width: 100%;
+  padding-bottom: 100%;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view > view > view {
+  width: 100%;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view > view > view > text {
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  color: #333;
+  font-size: 26px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NavContainer > view > view > view > text:first-child {
+  font-size: 64px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .HotActivityContainer {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .HotActivityContainer > view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 24rpx;
+  background: #fff;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .HotActivityContainer > view > .Title {
+  font-size: 0;
+  white-space: nowrap;
+  text-align: center;
+  padding: 30px 0;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .HotActivityContainer > view > .Title > text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #999;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .HotActivityContainer > view > .Title > text:first-child {
+  font-size: 34px;
+  color: #333;
+  line-height: 40px;
+  margin-right: 20px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .HotActivityContainer > view > .Activity {
+  width: 100%;
+  padding-bottom: 33.33%;
+  position: relative;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .HotActivityContainer > view > .Activity > image {
+  width: 100%;
+  height: 100%;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 24rpx;
+  background: #fff;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view > .Title {
+  font-size: 0;
+  white-space: nowrap;
+  text-align: center;
+  padding: 30px 0;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view > .Title > text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #999;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view > .Title > text:first-child {
+  font-size: 34px;
+  color: #333;
+  line-height: 40px;
+  margin-right: 20px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view .OwnerList {
+  border-top: 2px solid #f8f8f8;
+  align-items: center;
+  padding: 30px 0;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view .OwnerList > view {
+  position: relative;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view .OwnerList > view image {
+  height: 60px;
+  width: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .OwnerContainer > view .OwnerList > view text {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  color: #333;
+  line-height: 40px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 24rpx;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .Title {
+  align-items: center;
+  padding: 0 20px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .Title > text {
+  font-size: 24px;
+  color: #666;
+  line-height: 98px;
+  margin-left: 10px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .Title > text:first-child {
+  font-size: 30px;
+  color: #333;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view {
+  align-items: center;
+  border-top: 2px solid #f8f8f8;
+  padding: 30px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view:first-child {
+  border-top: none;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view > .Img {
+  width: 160px;
+  height: 128px;
+  position: relative;
+  overflow: hidden;
+  background: #f8f8f8;
+  margin-right: 20px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view > .Img > image {
+  width: 100%;
+  height: 100%;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view > .flex-item {
+  position: relative;
+  overflow: hidden;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view > .flex-item > view text {
+  display: block;
+  font-size: 26px;
+  color: #666;
+  line-height: 40px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view > .flex-item > view:first-child text {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .NewsContainer > view > .List > view > .flex-item > view:last-child text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ShouYe > view.flex-item > .PageContainer .Content > view > .PageBottom {
+  width: 100%;
+  height: 30px;
+}
+@-webkit-keyframes move {
+  0% {
+    left: 100vw;
+  }
+  100% {
+    left: -100%;
+  }
+}

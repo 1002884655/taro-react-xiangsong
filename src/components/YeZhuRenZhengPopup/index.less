@@ -1,0 +1,50 @@
+.YeZhuRenZhengPopup {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 200000;
+
+  &.active {
+    display: block;
+  }
+
+  >view {
+    width: 100%;
+
+    >view {
+      padding: 0 30px;
+      position: relative;
+      overflow: hidden;
+
+      scroll-view {
+        padding: 30px 0;
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+        max-height: 60vh;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .Checking {
+        padding: 30px 0;
+        width: 50%;
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+        margin: 0 auto;
+
+        text {
+          font-size: 28px;
+          display: block;
+          text-align: center;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}

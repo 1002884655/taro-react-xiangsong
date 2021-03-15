@@ -1,0 +1,286 @@
+.BaoXiuDetail {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+}
+.BaoXiuDetail > .TopLine {
+  width: 100%;
+  height: 20px;
+  background-color: #f8f8f8;
+  background: #f8f8f8;
+}
+.BaoXiuDetail > .TopInfo {
+  padding: 0 30px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.BaoXiuDetail > .TopInfo > .flex-h {
+  align-items: flex-start;
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+  padding: 30px 0;
+}
+.BaoXiuDetail > .TopInfo > .flex-h:first-child {
+  border-top: none;
+}
+.BaoXiuDetail > .TopInfo > .flex-h:first-child > text:first-child {
+  color: #333;
+  font-weight: bold;
+  font-size: 32px;
+}
+.BaoXiuDetail > .TopInfo > .flex-h > text {
+  font-size: 28px;
+  color: #999;
+  line-height: 40px;
+}
+.BaoXiuDetail > .Detail {
+  padding: 0 30px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.BaoXiuDetail > .Detail > text {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  line-height: 98px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+.BaoXiuDetail > .Detail > .flex-h {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .Line {
+  width: 50px;
+  position: relative;
+  overflow: visible;
+  border-left: 2px dashed #F35844;
+}
+.BaoXiuDetail > .Detail > .flex-h > .Line > view {
+  width: 14px;
+  height: 14px;
+  background: #F35844;
+  border-radius: 100%;
+  position: absolute;
+  left: -8px;
+  top: 30px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item {
+  position: relative;
+  overflow: visible;
+  background: rgba(243, 88, 68, 0.08);
+  padding: 20px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item::after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 16px;
+  border-color: transparent rgba(243, 88, 68, 0.08) transparent transparent;
+  border-style: solid dashed solid solid;
+  border-width: 20px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Title {
+  align-items: center;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Title > text {
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Title > text.Red {
+  color: #F35844;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Title > text.Green {
+  color: #14DC05;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Title > text.Blue {
+  color: #77A5F0;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Text {
+  font-size: 24px;
+  color: #333;
+  line-height: 40px;
+  margin-top: 10px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Text > text.Blue {
+  color: #77A5F0;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .Text > text.Red {
+  color: #F35844;
+  font-size: 34px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ReplyList {
+  margin-top: 20px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ReplyList > .flex-h {
+  align-items: center;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ReplyList > .flex-h > view {
+  margin-left: 10px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ReplyList > .flex-h > view:first-child {
+  margin-left: 0;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ReplyList > .flex-h > view:first-child > text {
+  color: #14DC05;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ReplyList > .flex-h > view > text {
+  font-size: 24px;
+  color: #666;
+  line-height: 40px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ReplyList > .ReplyContent > text {
+  font-size: 24px;
+  color: #333;
+  line-height: 40px;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ImgList {
+  font-size: 0;
+}
+.BaoXiuDetail > .Detail > .flex-h > .flex-item > view > .StepList > .ImgList > view {
+  display: inline-block;
+  vertical-align: middle;
+  width: 136px;
+  height: 136px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 12px;
+  margin-right: 12px;
+  background: #f8f8f8;
+}
+.BaoXiuDetail > .Detail > .BottomBtn {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.BaoXiuDetail > .Detail > .BottomBtn.active > text {
+  color: #fff;
+  background: #F35844;
+}
+.BaoXiuDetail > .Detail > .BottomBtn > text {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  line-height: 98px;
+  border-radius: 98px;
+  color: #F35844;
+  background: #fff;
+  border: 2px solid #F35844;
+  box-sizing: border-box;
+}
+.BaoXiuDetail .LianXiPopup {
+  padding: 0 30px;
+  position: relative;
+  overflow: visible;
+  padding-bottom: 40px;
+}
+.BaoXiuDetail .LianXiPopup > text {
+  width: 100%;
+  display: block;
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.BaoXiuDetail .LianXiPopup > text:first-child {
+  font-size: 34px;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+.BaoXiuDetail .LianXiPopup > .flex-h {
+  border-top: 2px solid rgba(0, 0, 0, 0.08);
+}
+.BaoXiuDetail .LianXiPopup > .flex-h > text {
+  font-size: 30px;
+  line-height: 100px;
+  color: #77A5F0;
+}
+.BaoXiuDetail .LianXiPopup > .flex-h > text:first-child {
+  color: #333;
+}
+.BaoXiuDetail .LianXiPopup > .flex-h > text:last-child {
+  font-size: 40px;
+  margin-left: 10px;
+}
+.BaoXiuDetail .PinJiaPopup,
+.BaoXiuDetail .ReplyPopup {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.BaoXiuDetail .PinJiaPopup > .Title,
+.BaoXiuDetail .ReplyPopup > .Title {
+  display: block;
+  font-size: 26px;
+  color: #666;
+  line-height: 40px;
+}
+.BaoXiuDetail .PinJiaPopup textarea,
+.BaoXiuDetail .ReplyPopup textarea {
+  font-size: 26px;
+  line-height: 40px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  margin-top: 60px;
+}
+.BaoXiuDetail .PinJiaPopup > .StarLine,
+.BaoXiuDetail .ReplyPopup > .StarLine {
+  font-size: 0;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 20px;
+}
+.BaoXiuDetail .PinJiaPopup > .StarLine text,
+.BaoXiuDetail .ReplyPopup > .StarLine text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  color: #666;
+  margin-left: 20px;
+}
+.BaoXiuDetail .PinJiaPopup > .StarLine text:first-child,
+.BaoXiuDetail .ReplyPopup > .StarLine text:first-child {
+  margin-left: 0;
+}
+.BaoXiuDetail .PinJiaPopup > .StarLine text.active,
+.BaoXiuDetail .ReplyPopup > .StarLine text.active {
+  color: #fcdc1e;
+}
+.BaoXiuDetail .PinJiaPopup > .Btn,
+.BaoXiuDetail .ReplyPopup > .Btn {
+  font-size: 28px;
+  line-height: 80px;
+  display: block;
+  text-align: center;
+  background: #F35844;
+  color: #fff;
+  margin-top: 60px;
+  border-radius: 80px;
+}

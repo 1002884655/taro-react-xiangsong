@@ -1,0 +1,59 @@
+.WuYeGongGaoDetail {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #fff;
+}
+.WuYeGongGaoDetail > .Title {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.WuYeGongGaoDetail > .Title > text {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+.WuYeGongGaoDetail > .flex-h {
+  padding: 0 30px;
+  align-items: center;
+}
+.WuYeGongGaoDetail > .flex-h > .flex-item {
+  font-size: 0;
+  white-space: nowrap;
+}
+.WuYeGongGaoDetail > .flex-h > .flex-item > text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #666;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.WuYeGongGaoDetail > .flex-h > view:last-child {
+  font-size: 0;
+  white-space: nowrap;
+}
+.WuYeGongGaoDetail > .flex-h > view:last-child > text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #666;
+  line-height: 40px;
+}
+.WuYeGongGaoDetail > .flex-h > view:last-child > text.iconfont {
+  font-size: 40px;
+  color: #F35844;
+  margin-right: 10px;
+}
+.WuYeGongGaoDetail > .Desc {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.WuYeGongGaoDetail > .Desc > image {
+  width: 100%;
+  margin-top: 10px;
+}

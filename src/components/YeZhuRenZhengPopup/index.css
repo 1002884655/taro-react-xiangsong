@@ -1,0 +1,44 @@
+.YeZhuRenZhengPopup {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 200000;
+}
+.YeZhuRenZhengPopup.active {
+  display: block;
+}
+.YeZhuRenZhengPopup > view {
+  width: 100%;
+}
+.YeZhuRenZhengPopup > view > view {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.YeZhuRenZhengPopup > view > view scroll-view {
+  padding: 30px 0;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  max-height: 60vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.YeZhuRenZhengPopup > view > view .Checking {
+  padding: 30px 0;
+  width: 50%;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  margin: 0 auto;
+}
+.YeZhuRenZhengPopup > view > view .Checking text {
+  font-size: 28px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}

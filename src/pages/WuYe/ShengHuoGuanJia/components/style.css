@@ -1,0 +1,82 @@
+.gj-card {
+  font-size: 28rpx;
+  padding: 0 30rpx;
+  background: #FFFFFF;
+  border-radius: 12rpx;
+  margin-top: 30px;
+}
+.gj-card-body {
+  padding-top: 30rpx;
+  display: flex;
+}
+.gj-card-body-media {
+  width: 210rpx;
+  height: 294rpx;
+  flex: none;
+  margin-right: 30rpx;
+  position: relative;
+  overflow: hidden;
+}
+.gj-card-body-media image {
+  width: 100%;
+  height: 100%;
+}
+.gj-card-body-content {
+  flex: auto;
+}
+.gj-card-footer {
+  padding-left: 30rpx;
+  line-height: 90rpx;
+  display: flex;
+  align-items: center;
+}
+.gj-card-footer view {
+  flex: auto;
+}
+.gj-card-footer-action {
+  width: 150rpx;
+  flex: none;
+}
+.gj-lr {
+  display: flex;
+  color: #333;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}
+.gj-lr-left {
+  width: 120rpx;
+  flex: none;
+}
+.gj-lr-right {
+  flex: auto;
+}
+.gj-btn {
+  display: inline-block;
+  padding: 0 30rpx;
+  min-width: 65rpx;
+  color: #F35844;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 1px solid #F35844;
+  border-radius: 30px;
+}
+.gj-stars {
+  font-size: 36rpx;
+}
+.gj-stars .gj-star-large {
+  font-size: 64rpx;
+}
+.gj-stars .gj-star-large + .gj-star-large {
+  margin-left: 16rpx;
+}
+.gj-star {
+  color: #333;
+  display: inline-block;
+}
+.gj-star.gj-star-active {
+  color: #F35844;
+}
+.gj-star + .gj-star {
+  margin-left: 8rpx;
+}

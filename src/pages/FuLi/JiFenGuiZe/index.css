@@ -1,0 +1,88 @@
+.JiFenGuiZe {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #4240e1, #d149f9);
+}
+.JiFenGuiZe > .JiFenContent {
+  width: 100%;
+}
+.JiFenGuiZe > .JiFenContent > view {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.JiFenGuiZe > .JiFenContent > view > .Img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
+}
+.JiFenGuiZe > .JiFenContent > view > .Img > image {
+  width: 100%;
+  height: auto;
+}
+.JiFenGuiZe > .JiFenContent > view > .Title {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+.JiFenGuiZe > .JiFenContent > view > .Title > text {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 2;
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.JiFenGuiZe > .JiFenContent > view > .Title > image {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.JiFenGuiZe > .JiFenContent > view > text {
+  width: 100%;
+  display: block;
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+.JiFenGuiZe > .JiFenContent > view > .RuleList {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.JiFenGuiZe > .JiFenContent > view > .RuleList > view {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+.JiFenGuiZe > .JiFenContent > view > .RuleList > view:first-child {
+  border-top: none;
+}
+.JiFenGuiZe > .JiFenContent > view > .RuleList > view > .flex-item {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+.JiFenGuiZe > .JiFenContent > view > .RuleList > view > .flex-item > text {
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+  display: block;
+}
+.JiFenGuiZe > .JiFenContent > view > .RuleList > view > view:last-child {
+  padding: 10px 0;
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  width: 100px;
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+}

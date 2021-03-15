@@ -1,0 +1,110 @@
+.WuYeBaoXiuItem {
+  position: relative;
+  background: #fff;
+  padding: 0 30px;
+}
+.WuYeBaoXiuItem > .Title {
+  align-items: center;
+  padding-top: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+.WuYeBaoXiuItem > .Title > text {
+  font-size: 24px;
+  color: #999;
+  line-height: 88px;
+  margin-left: 10px;
+}
+.WuYeBaoXiuItem > .Title > text:first-child {
+  margin-left: 0;
+  font-size: 34px;
+  color: #F35844;
+}
+.WuYeBaoXiuItem > .Title > text.flex-item {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+}
+.WuYeBaoXiuItem > .Name {
+  align-items: center;
+  margin-top: 20px;
+}
+.WuYeBaoXiuItem > .Name > text {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.WuYeBaoXiuItem > .Name > text.iconfont {
+  font-size: 40px;
+  color: #F35844;
+  margin-left: 20px;
+  font-weight: normal;
+}
+.WuYeBaoXiuItem > .Detail {
+  position: relative;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+.WuYeBaoXiuItem > .Detail > .Line {
+  width: 50px;
+  position: relative;
+  overflow: visible;
+  border-left: 2px dashed #F35844;
+}
+.WuYeBaoXiuItem > .Detail > .Line > view {
+  width: 14px;
+  height: 14px;
+  background: #F35844;
+  border-radius: 100%;
+  position: absolute;
+  left: -8px;
+  top: 30px;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item {
+  position: relative;
+  overflow: visible;
+  background: rgba(243, 88, 68, 0.08);
+  padding: 20px;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item::after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 16px;
+  border-color: transparent rgba(243, 88, 68, 0.08) transparent transparent;
+  border-style: solid dashed solid solid;
+  border-width: 20px;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item > .flex-h {
+  align-items: center;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item > .flex-h > text {
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item > .flex-h > text:first-child {
+  color: #F35844;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item > .Desc {
+  font-size: 24px;
+  line-height: 40px;
+  color: #333;
+  margin-top: 10px;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item > .Desc > text.Name {
+  color: #F35844;
+  font-size: 24px;
+  line-height: 40px;
+}
+.WuYeBaoXiuItem > .Detail > .flex-item > .Desc > text.Phone {
+  color: #14DC05;
+  font-size: 24px;
+  line-height: 40px;
+}

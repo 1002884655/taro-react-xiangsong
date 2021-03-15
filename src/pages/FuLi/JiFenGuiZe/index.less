@@ -1,0 +1,102 @@
+.JiFenGuiZe {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #4240e1, #d149f9);
+
+  >.JiFenContent {
+    width: 100%;
+
+    >view {
+      padding: 0 30px;
+      position: relative;
+      overflow: hidden;
+
+      >.Img {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        margin-top: 200px;
+
+        >image {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      >.Title {
+        position: relative;
+        overflow: hidden;
+        margin-top: 40px;
+
+        >text {
+          width: 100%;
+          display: block;
+          position: relative;
+          z-index: 2;
+          font-size: 28px;
+          color: #fff;
+          line-height: 40px;
+          text-align: center;
+          font-weight: bold;
+        }
+
+        >image {
+          width: 100%;
+          height: auto;
+          z-index: 1;
+        }
+      }
+
+      >text {
+        width: 100%;
+        display: block;
+        font-size: 28px;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      >.RuleList {
+        position: relative;
+        overflow: hidden;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+
+        >view {
+          border-top: 2px solid rgba(255, 255, 255, 0.5);
+
+          &:first-child {
+            border-top: none;
+          }
+
+          >.flex-item {
+            position: relative;
+            overflow: hidden;
+            padding: 10px;
+
+            >text {
+              font-size: 28px;
+              color: #fff;
+              line-height: 40px;
+              display: block;
+            }
+          }
+
+          >view:last-child {
+            padding: 10px 0;
+            font-size: 28px;
+            color: #fff;
+            line-height: 40px;
+            text-align: center;
+            width: 100px;
+            border-left: 2px solid rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+    }
+  }
+}

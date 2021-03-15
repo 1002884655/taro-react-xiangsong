@@ -1,0 +1,30 @@
+.WuYeJiaoFei {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.WuYeJiaoFei .BigImg {
+  width: 100%;
+  padding-bottom: 50%;
+  position: relative;
+  overflow: hidden;
+  background: #ccc;
+}
+.WuYeJiaoFei .BigImg > image {
+  width: 100%;
+  height: 100%;
+}
+.WuYeJiaoFei .List {
+  position: relative;
+  overflow: hidden;
+}
+.WuYeJiaoFei .List > view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.WuYeJiaoFei .List > view:first-child {
+  margin-top: 30px;
+}

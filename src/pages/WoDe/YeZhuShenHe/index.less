@@ -1,0 +1,222 @@
+.YeZhuShenHe {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  overflow: hidden;
+
+  >.ShenHeContent {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    z-index: 1;
+
+    >.CheckStatus {
+      position: relative;
+      overflow: hidden;
+
+      &.Checking,
+      &.Pass {
+        >.Status {
+          padding: 40px 30px;
+          position: relative;
+          overflow: hidden;
+          background: #fff;
+
+          >text {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 28px;
+            color: #666;
+            line-height: 40px;
+
+            &:first-child {
+              font-size: 100px;
+              line-height: 100px;
+              color: #77A5F0;
+              margin-bottom: 20px;
+            }
+          }
+        }
+
+        >.Info {
+          padding: 10px 30px;
+          position: relative;
+          overflow: hidden;
+          background: #fff;
+          margin-top: 20px;
+
+          >.flex-h {
+            align-items: flex-start;
+
+            >text {
+              font-size: 30px;
+              color: #333;
+              line-height: 40px;
+              padding: 10px 0;
+            }
+          }
+        }
+      }
+
+      &.Pass {
+        >.Status {
+          >text {
+            &:first-child {
+              color: #2ed61a;
+            }
+          }
+        }
+      }
+
+      &.NoPass {
+
+        >.Status {
+          padding: 40px 30px;
+          position: relative;
+          overflow: hidden;
+          background: #fff;
+
+          >text {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 28px;
+            color: #F35844;
+            line-height: 40px;
+
+            &:first-child {
+              font-size: 100px;
+              line-height: 100px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+
+        >.Info {
+          padding: 0 30px;
+          position: relative;
+          overflow: hidden;
+          background: #fff;
+          margin-top: 20px;
+
+          >.flex-h {
+            align-items: center;
+            border-top: 2px solid rgba(0, 0, 0, 0.08);
+            &:first-child {
+              border: none;
+            }
+
+            >text {
+              font-size: 30px;
+              color: #333;
+              line-height: 40px;
+              padding: 30px 0;
+              text-align: right;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+
+              &:first-child {
+                font-size: 28px;
+                color: #999;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    >.OtherTab {
+      background: #fff;
+      padding: 0 30px;
+      margin-top: 20px;
+
+      >.flex-h {
+        align-items: center;
+        border-top: 2px solid rgba(0, 0, 0, 0.08);
+
+        &:first-child {
+          border: none;
+        }
+
+        >text {
+          font-size: 36px;
+          color: #999;
+          line-height: 100px;
+
+          &:first-child {
+            font-size: 32px;
+            color: #333;
+          }
+        }
+      }
+    }
+    >.ContentBottom {
+      width: 100%;
+      height: 250px;
+    }
+  }
+
+  >.BottomBtn {
+    padding: 0 30px 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    margin-top: -164px;
+
+    >text {
+      display: block;
+      width: 100%;
+      font-size: 32px;
+      color: #fff;
+      background: #F35844;
+      border-radius: 12px;
+      line-height: 84px;
+      text-align: center;
+    }
+  }
+  .LianXiPopup {
+    padding: 0 30px;
+    position: relative;
+    overflow: visible;
+    padding-bottom: 40px;
+
+    >text {
+      width: 100%;
+      display: block;
+      font-size: 24px;
+      color: #999;
+      line-height: 40px;
+      text-align: center;
+      margin-bottom: 30px;
+
+      &:first-child {
+        font-size: 34px;
+        color: #333;
+        margin-bottom: 10px;
+        margin-top: -30px;
+      }
+    }
+
+    >.flex-h {
+      border-top: 2px solid rgba(0, 0, 0, 0.08);
+
+      >text {
+        font-size: 30px;
+        line-height: 100px;
+        color: #77A5F0;
+
+        &:first-child {
+          color: #333;
+        }
+
+        &:last-child {
+          font-size: 40px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

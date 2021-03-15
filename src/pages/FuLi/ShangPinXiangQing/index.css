@@ -1,0 +1,108 @@
+.ShangPinXiangQing {
+  width: calc(100% -32rpx);
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #f8f8f8;
+  padding: 0 16rpx;
+}
+.ShangPinXiangQing > .Info {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.ShangPinXiangQing > .Info > .Img {
+  width: 100%;
+}
+.ShangPinXiangQing > .Info > .Img > image {
+  width: 100%;
+}
+.ShangPinXiangQing > .Info > .Title {
+  padding: 20px 30px;
+  position: relative;
+  overflow: hidden;
+}
+.ShangPinXiangQing > .Info > .Title > text {
+  display: block;
+  width: 100%;
+  font-size: 32px;
+  color: #333;
+  font-weight: bold;
+  line-height: 40px;
+}
+.ShangPinXiangQing > .Info > .flex-h {
+  padding: 0 30px 20px;
+  align-items: center;
+}
+.ShangPinXiangQing > .Info > .flex-h > text {
+  font-size: 28px;
+  color: #666;
+  line-height: 40px;
+}
+.ShangPinXiangQing > .Info > .flex-h > text:first-child {
+  color: #F35844;
+}
+.ShangPinXiangQing > .Info > .flex-h > text.flex-item {
+  color: #999;
+}
+.ShangPinXiangQing > .Info > .flex-h > text:last-child {
+  color: #971C21;
+}
+.ShangPinXiangQing > .Detail {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  margin-top: 20px;
+}
+.ShangPinXiangQing > .Detail > .Title {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px 0;
+}
+.ShangPinXiangQing > .Detail > .Title > .Line {
+  height: 2px;
+  background: rgba(0, 0, 0, 0.08);
+  z-index: 1;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.ShangPinXiangQing > .Detail > .Title > text {
+  display: inline-block;
+  background: #fff;
+  padding: 0 40px;
+  line-height: 40px;
+  z-index: 2;
+  font-size: 28px;
+  color: #666;
+  position: relative;
+}
+.ShangPinXiangQing > .Detail .Tips {
+  font-size: 24px;
+  color: #999;
+  line-height: 36px;
+  display: block;
+  padding: 40px 0;
+}
+.ShangPinXiangQing > .Detail > .BottomBtn {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.ShangPinXiangQing > .Detail > .BottomBtn > text {
+  width: 100%;
+  font-size: 34px;
+  color: #fff;
+  line-height: 98px;
+  background: #ccc;
+  border-radius: 98px;
+  text-align: center;
+  display: block;
+}
+.ShangPinXiangQing > .Detail > .BottomBtn > text.active {
+  background: #F35844;
+}

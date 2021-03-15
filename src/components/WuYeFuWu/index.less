@@ -1,0 +1,206 @@
+.WuYeFuWu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #f2f2f2;
+
+  .TypeList {
+    padding-right: 30px;
+    font-size: 0;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+    >view {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      overflow: hidden;
+      margin-left: 30px;
+      margin-top: 30px;
+      width: calc((100% - 150px) / 5);
+
+      >view {
+        position: relative;
+        overflow: hidden;
+        background: #fff;
+        width: 100%;
+        padding-bottom: 100%;
+
+        >view {
+          width: 100%;
+
+          >.Icon {
+            width: 60px;
+            height: 60px;
+            position: relative;
+            overflow: hidden;
+            margin: 0 auto;
+
+            image {
+              width: 100%;
+              height: 100%;
+            }
+
+            text {
+              font-size: 50px;
+              color: #F35844;
+              display: block;
+              text-align: center;
+            }
+          }
+
+          >.Name {
+            text {
+              display: block;
+              text-align: center;
+              font-size: 24px;
+              color: #333;
+              line-height: 40px;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+
+  .BigImg {
+    width: 100%;
+    padding-bottom: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #ccc;
+
+    >view {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+
+      >.BannerSwiper {
+        width: 100%;
+        height: 100%;
+
+        .BannerItem {
+          width: 100%;
+          height: 100%;
+          position: relative;
+
+          image {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .BanShiZhiNan {
+    padding: 40px 30px;
+    background: #fff;
+    margin-top: 30px;
+    overflow: hidden;
+
+    >text {
+      font-size: 30px;
+      color: #333;
+      font-weight: bold;
+      line-height: 40px;
+      display: block;
+    }
+
+    >.flex-h {
+      position: relative;
+      margin-top: 60px;
+
+      >.Line {
+        width: 50px;
+        position: relative;
+        overflow: visible;
+        border-left: 2px dashed #586FF8;
+
+        >view {
+          width: 14px;
+          height: 14px;
+          background: #586FF8;
+          border-radius: 100%;
+          position: absolute;
+          left: -8px;
+          top: 30px;
+        }
+      }
+
+      >.flex-item {
+        position: relative;
+        overflow: visible;
+        background: rgba(88, 111, 248, 0.08);
+        padding: 20px;
+
+        &::after {
+          content: '';
+          width: 0;
+          height: 0;
+          display: block;
+          position: absolute;
+          left: -40px;
+          top: 16px;
+          border-color: transparent rgba(88, 111, 248, 0.08) transparent transparent;
+          border-style: solid dashed solid solid;
+          border-width: 20px;
+        }
+
+        >text {
+          display: block;
+          font-size: 24px;
+          color: #333;
+          line-height: 40px;
+          margin-top: 10px;
+
+          &:first-child {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
+  }
+
+  .ListTitle {
+    position: relative;
+    overflow: hidden;
+    padding: 0 30px;
+    margin-top: 30px;
+    background: #fff;
+
+    >text {
+      display: block;
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+      line-height: 100px;
+    }
+  }
+
+  .List {
+    position: relative;
+    overflow: hidden;
+
+    >view {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 30px;
+
+      // &:first-child {
+      //   margin-top: 30px;
+      // }
+    }
+  }
+}

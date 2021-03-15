@@ -1,0 +1,53 @@
+.NewsListItem {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 0 12px 12px 0;
+  align-items: center;
+  > .Img {
+    width: 220px;
+    height: 176px;
+    position: relative;
+    overflow: hidden;
+    background: #ccc;
+    margin-right: 20px;
+    > image {
+      display: block;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+    > text {
+      font-size: 24px;
+      color: #971c21;
+      display: inline-block;
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      top: 0;
+      line-height: 40px;
+      width: 80px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+    }
+  }
+  > .Info {
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    > text {
+      display: block;
+      font-size: 24px;
+      color: #666;
+      line-height: 40px;
+      &:first-child {
+        font-size: 28px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
